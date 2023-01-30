@@ -139,8 +139,8 @@ ul {
 body>.dot {
   background-color: var(--grey-111);
   color: var(--gold-color);
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   position: fixed;
   z-index: 5;
   right: 30px;
@@ -152,7 +152,7 @@ body>.dot {
   -o-border-radius: 50%;
   display: grid;
   place-items: center;
-  font-size: 30px;
+  font-size: 24px;
   text-decoration: none;
   transition: 0.5s;
   -webkit-transition: 0.5s;
@@ -180,19 +180,19 @@ body>.dot:hover i {
 
 @keyframes back {
   0% {
-    transform: translateX(5px);
-    -webkit-transform: translateX(5px);
-    -moz-transform: translateX(5px);
-    -ms-transform: translateX(5px);
-    -o-transform: translateX(5px);
+    transform: translatey(-2px);
+    -webkit-transform: translatey(-2px);
+    -moz-transform: translatey(-2px);
+    -ms-transform: translatey(-2px);
+    -o-transform: translatey(-2px);
   }
 
   100% {
-    transform: translateX(-5px);
-    -webkit-transform: translateX(-5px);
-    -moz-transform: translateX(-5px);
-    -ms-transform: translateX(-5px);
-    -o-transform: translateX(-5px);
+    transform: translatey(2px);
+    -webkit-transform: translatey(2px);
+    -moz-transform: translatey(2px);
+    -ms-transform: translatey(2px);
+    -o-transform: translatey(2px);
   }
 }
 
