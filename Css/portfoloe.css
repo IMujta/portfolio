@@ -139,8 +139,8 @@ ul {
 body>.dot {
   background-color: var(--grey-111);
   color: var(--gold-color);
-  width: 50px;
-  height: 50px;
+  width: 49px;
+  height: 49px;
   position: fixed;
   z-index: 5;
   right: 30px;
@@ -152,7 +152,7 @@ body>.dot {
   -o-border-radius: 50%;
   display: grid;
   place-items: center;
-  font-size: 24px;
+  font-size: 25px;
   text-decoration: none;
   transition: 0.5s;
   -webkit-transition: 0.5s;
