@@ -391,7 +391,7 @@ body>.dot:hover i {
 .landgin {
   margin-top: -58px;
   min-height: 100vh;
-  background-image: url(../images/portfolio/ladding/paper-cut-abstract-background-3d-clean-dark-carving-art-paper-craft-black-waves-minimalistic-modern-design-business-presentations.jpg);
+  background-image: url(../images/portfolio/ladding/ladding.jpg);
   background-size: cover;
   padding-top: calc(58px);
   display: flex;
@@ -620,14 +620,6 @@ body>.dot:hover i {
 .skills .container .skill-wrapper .skill .data progress::-webkit-progress-bar {
   background-color: var(--grey-222);
   border-radius: 16px;
-}
-
-.skills .container>.icon::before {
-  content: url(../images/portfolio/skills/facebook.svg);
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
-  font-size: 200px;
-  color: var(--gold-color);
 }
 
 .skills .container .cube-wrapper {
