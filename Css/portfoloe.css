@@ -398,16 +398,6 @@ body>.dot:hover i {
   align-items: center;
 }
 
-.landgin .container .wrapper .image .hex {
-  width: 250px;
-  height: 250px;
-  background-color: var(--gold-color);
-}
-
-.landgin .container .wrapper img {
-  width: 300px;
-}
-
 .landgin .container .wrapper .text {
   flex: 1;
   min-width: fit-content;
@@ -922,11 +912,11 @@ body>.dot:hover i {
 }
 
 .contact ul li i:hover {
-  transform: scale(1.5, 1.5);
-  -webkit-transform: scale(1.5, 1.5);
-  -moz-transform: scale(1.5, 1.5);
-  -ms-transform: scale(1.5, 1.5);
-  -o-transform: scale(1.5, 1.5);
+  transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.2, 1.2);
+  -moz-transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2);
+  -o-transform: scale(1.2, 1.2);
 }
 
 .contact ul li i.email:hover {
