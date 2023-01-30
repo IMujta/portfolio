@@ -1,0 +1,145 @@
+/* Start vireabules */
+
+:root {
+  --mine-color: #3d8168;
+  --alt-mine-color: #1a4031;
+}
+
+/* End vireabules */
+/* Start Glouble rouls */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page {
+  height: 100vh;
+  background-color: hsl(30, 38%, 92%);
+}
+
+/* End Glouble rouls */
+/* Start card */
+
+.card {
+  width: 600px;
+  height: 450px;
+  background-color: white;
+  display: flex;
+}
+
+@media (max-width:767px) {
+  .card {
+    flex-direction: column;
+    width: 345px;
+    height: 610px;
+  }
+}
+
+.card img.mobile {
+  display: none;
+}
+
+@media (max-width:767px) {
+  .card img.mobile {
+    display: block;
+  }
+
+  .card img.desk-top {
+    display: none;
+  }
+
+}
+
+
+.card .info {
+  padding: 30px;
+}
+
+@media (max-width:767px) {
+  .card .info {
+    padding: 20px;
+  }
+}
+
+.card .proudact {
+  font-family: "Montserrat";
+  font-size: 14px;
+  letter-spacing: 5px;
+  color: hsl(228, 12%, 48%);
+}
+
+.card .title {
+  color: hsl(212, 21%, 14%);
+  font-family: "Fraunces";
+  font-weight: bold;
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+@media (max-width:767px) {
+  .card .title {
+    margin: 10px 0;
+  }
+}
+
+.card .info .data {
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.card .info .price {
+  margin: 20px 0;
+}
+
+@media (max-width:767px) {
+  .card .info .price {
+    margin: 10px 0;
+  }
+}
+
+.card .info .price .new-price {
+  color: hsl(158, 36%, 37%);
+  font-size: 38px;
+  font-weight: bold;
+  font-family: 'Fraunces', serif;
+  margin-right: 20px;
+}
+
+.card .info .price .old-price {
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+  font-family: "Montserrat";
+}
+
+.card .info a {
+  color: white;
+  display: block;
+  background-color: #3d8168;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  text-align: center;
+  padding: 15px 0;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Montserrat";
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.card .info a:hover {
+  background-color: #1a4031;
+}
+
+/* End card */

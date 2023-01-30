@@ -1,0 +1,181 @@
+/* Start vireabules */
+
+:root {}
+
+/* End vireabules */
+/* Start Glouble rouls */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Red Hat Display',
+    sans-serif;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background-color: hsl(225, 100%, 94%);
+}
+
+/* End Glouble rouls */
+/* Start card */
+
+.card {
+  width: 450px;
+  height: 700px;
+  background-color: white;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.137);
+}
+
+@media (max-width:375px) {
+  .card {
+    height: 570px;
+    width: 330px;
+  }
+}
+
+.card img {
+  width: 100%;
+}
+
+@media (max-width:375px) {
+  .card>img {
+    width: 100%;
+  }
+}
+
+.card .content {
+  padding: 50px;
+}
+
+@media (max-width:375px) {
+  .card .content {
+    padding: 40px 25px 25px;
+  }
+}
+
+.card .content .title {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  font-size: 26px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card .content .dis {
+  text-align: center;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 50px;
+}
+
+@media (max-width:375px) {
+  .card .content .dis {
+    margin-bottom: 10px;
+  }
+}
+
+.card .content .plan-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(225, 100%, 98%);
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+@media (max-width:375px) {
+  .card .plan-box {
+    margin-bottom: 20px;
+  }
+}
+
+.card .content .plan-box img {
+  margin-right: 15px;
+}
+
+/* @media (max-width:375px) { */
+.card .plan-box img {
+  width: 50px;
+  height: 50px;
+}
+
+/* } */
+
+.card .content .plan-box .info {
+  flex: 1;
+}
+
+.card .content .plan-box a {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.card .content .plan-box a:hover {
+  color: hsl(245, 83%, 68%);
+  text-decoration: none;
+}
+
+.card .cancel,
+.card .pay {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
+
+.card .pay {
+  padding: 20px 0px;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.377);
+  margin-bottom: 30px;
+}
+
+.card .pay:hover {
+  background-color: hsl(245, 83%, 68%);
+}
+
+.card .cancel {
+  width: fit-content;
+  margin: 20px auto;
+}
+
+@media (max-width:375px) {
+  .card .cancel {
+    margin: 10px auto;
+  }
+}
+
+.card .cancel:hover {
+  color: hsl(245, 83%, 68%);
+}
+
+/* End card */

@@ -1,0 +1,81 @@
+{
+  "window.commandCenter": false,
+  "css-auto-prefix.prefixes": {
+  
+    "transform": [
+      "webkit",
+      "moz",
+      "ms",
+      "o"
+    ],
+    "transition": [
+      "webkit",
+      "moz",
+      "ms",
+      "o"
+    ],
+    "border-radius": [
+      "webkit",
+      "moz",
+      "ms",
+      "o"
+    ],
+    "animation": [
+      "webkit"
+    ],
+    "box-reflect": [
+      "webkit"
+    ],
+    "filter": [
+      "webkit"
+    ],
+    "font-feature-settings": [
+      "webkit",
+      "moz"
+    ],
+    "backface-visibility": [
+      "webkit"
+    ],
+    "box-decoration-break": [
+      "webkit"
+    ],
+    "hyphens": [
+      "webkit",
+      "moz",
+      "ms"
+    ],
+    "marquee-direction": [
+      "webkit"
+    ],
+    "marquee-play-count": [
+      "webkit"
+    ],
+    "marquee-speed": [
+      "webkit"
+    ],
+    "marquee-style": [
+      "webkit"
+    ],
+    "text-combine-upright": [
+      "webkit",
+      "moz",
+      "ms"
+    ],
+    "text-decoration-color": [
+      "moz"
+    ],
+    "text-decoration-line": [
+      "moz"
+    ],
+    "text-decoration-style": [
+      "moz"
+    ],
+    "text-orientation": [
+      "webkit"
+    ],
+    "writing-mode": [
+      "webkit",
+      "ms"
+    ]
+  }
+}
