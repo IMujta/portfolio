@@ -628,11 +628,11 @@ body>.dot:hover i {
 }
 
 .skills .container .skill-wrapper .skill.html .data .progress::before {
-  width: 80%;
+  width: 90%;
 }
 
 .skills .container .skill-wrapper .skill.css .data .progress::before {
-  width: 80%;
+  width: 90%;
 }
 
 .skills .container .skill-wrapper .skill.python .data .progress::before {
@@ -640,7 +640,44 @@ body>.dot:hover i {
 }
 
 .skills .container .skill-wrapper .skill.javascript .data .progress::before {
-  width: 0%;
+  width: 90%;
+}
+
+.skills .container .skill-wrapper .skill.bootstrap .data .progress::before {
+  width: 60%;
+}
+
+.skills .container .skill-wrapper .skill.react .data .progress::before {
+  width: 50%;
+}
+
+.skills .container .skill-wrapper .skill.github .data .progress::before {
+  width: 50%;
+}
+
+.skills .container .skill-wrapper .skill.typescript .data .progress::before {
+  width: 50%;
+}
+
+.skills .container .skill-wrapper .skill.typescript .icon {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  background-color: white;
+  margin-right: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  box-shadow: 0 0 40px -20px black;
+  background-color: var(--grey-222);
+  color: var(--gold-color);
+  line-height: 64px;
+  padding-top: 10px;
 }
 
 @media (max-width:767px) {
@@ -649,13 +686,21 @@ body>.dot:hover i {
   }
 }
 
-.skills .container .cube-wrapper .box {
+.skills .container .cube-wrapper .box,
+.skills .container .cube-wrapper .box2 {
   position: relative;
   width: 200px;
   height: 200px;
   transform-style: preserve-3d;
   animation: rotatey 6s infinite linear;
+}
+
+.skills .container .cube-wrapper .box {
   -webkit-animation: rotatey 6s infinite linear;
+}
+
+.skills .container .cube-wrapper .box2 {
+  -webkit-animation: rotatey-revers 6s infinite linear;
 }
 
 @keyframes rotatey {
@@ -666,6 +711,16 @@ body>.dot:hover i {
     -ms-transform: rotatey(360deg);
     -o-transform: rotatey(360deg);
   }
+}
+
+@keyframes rotatey-revers {
+  100% {
+    transform: rotatey(-360deg);
+    -webkit-transform: rotatey(-360deg);
+    -moz-transform: rotatey(-360deg);
+    -ms-transform: rotatey(-360deg);
+    -o-transform: rotatey(-360deg);
+}
 }
 
 .skills .container .cube-wrapper .card {
